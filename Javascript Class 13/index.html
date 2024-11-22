@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosting Plans</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Choose Your Hosting Plan</h1>
+        <p>Select the plan that best suits your needs.</p>
+    </header>
+
+    <div class="plans-container">
+        <div class="plan" id="basic-plan">
+            <h2>Basic Plan</h2>
+            <p class="price">$5/month</p>
+            <ul>
+                <li>10GB Storage</li>
+                <li>100GB Transfer</li>
+                <li>10 Pages</li>
+            </ul>
+            <p class="support">Email Support</p>
+            <button class="buy-btn" onclick="purchasePlan('Basic', 5)">Buy Now</button>
+        </div>
+
+        <div class="plan" id="pro-plan">
+            <h2>Pro Plan</h2>
+            <p class="price">$15/month</p>
+            <ul>
+                <li>50GB Storage</li>
+                <li>500GB Transfer</li>
+                <li>10 Pages</li>
+            </ul>
+            <p class="support">Email + Phone Support</p>
+            <button class="buy-btn" onclick="purchasePlan('Pro', 15)">Buy Now</button>
+        </div>
+
+        <div class="plan" id="business-plan">
+            <h2>Business Plan</h2>
+            <p class="price">$25/month</p>
+            <ul>
+                <li>Unlimited Storage</li>
+                <li>Unlimited Transfer</li>
+                <li>10 Pages</li>
+            </ul>
+            <p class="support">24/7 Support</p>
+            <button class="buy-btn" onclick="purchasePlan('Business', 25)">Buy Now</button>
+        </div>
+    </div>
+
+    <div id="confirmation-message" class="hidden">
+        <p id="message-text"></p>
+        <button onclick="closeMessage()">Close</button>
+    </div>
+
+    <footer>
+        <p>Need help? <a href="#">Contact Us</a></p>
+    </footer>
+
+    <script src="app.js"></script>
+
+<h1 style="margin-left: 430px; margin-top: 90px; color: black;">You Contact us for Hosting Plan in Github</h1>
+<img style="height: 100px; width: 200px; margin-left: 650px;margin-top: 90px;" src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png">
+
+
+
+
+
+
+  
+
+
+</body>
+</html>
